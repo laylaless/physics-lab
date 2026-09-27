@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>物理实验室 · 高中力学模拟</title>
+  </head>
+  <body>
+    <div id="app">
+      <header id="topbar"></header>
+      <nav id="toolbar"></nav>
+      <main id="stage">
+        <canvas id="cv"></canvas>
+        <div id="scene-info" hidden></div>
+        <div id="toast"></div>
+      </main>
+      <aside id="panel"></aside>
+      <section id="chartbar"></section>
+      <footer id="status">
+        <span class="t" id="st-time">t = 0.00 s</span>
+        <span id="st-bodies"></span>
+        <span id="st-view"></span>
+        <span id="st-hint"></span>
+      </footer>
+    </div>
+    <script type="module" src="/src/app/main.ts"></script>
+  </body>
+</html>
